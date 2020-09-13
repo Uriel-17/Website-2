@@ -1,0 +1,317 @@
+.btn {
+
+  border-radius:10px; 
+  height: 50px;
+  width:150px;
+  text-align: center;
+
+}
+
+.btn-green {
+
+  background-color: #28a745;
+  color:#fff;
+
+}
+
+.btn:hover {
+
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-outline  {
+
+  border: .9px solid #fff;
+  
+}
+
+.background-green {
+
+  background:#28a745; 
+
+  color:#fff;
+}
+.background-blue {
+  background: #0284d0;
+
+  color:#fff;
+}
+
+.background-light {
+
+  background: #f4f4f4;
+  color: #333;
+}
+
+.background-dark {
+
+  background: #333;
+  color: #fff;
+}
+
+
+
+/* Flex columns */
+
+.flex-container {
+  display:flex;
+  justify-items: center;
+  
+  
+ 
+}
+
+
+
+.flex-container img {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  
+  
+}
+
+
+
+.service {
+
+  margin-left:20px;
+  
+  border:5px blue solid;
+  color:#fff;
+  background-color:#28a745;
+
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+  
+}
+
+ .flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+ }
+
+.flex-columns .row {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+   width: 100%;
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%; 
+  flex: 1; 
+}
+
+.flex-columns .column .column-1,
+.flex-columns .column .column-2 {
+   height: 100%; 
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: center;
+  padding: 30px;
+  
+}
+
+.flex-columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex-columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex-columns p {
+  margin: 20px 0;
+}
+
+
+/* Cases */
+
+.section-header {
+
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+
+}
+
+.section-header h2{
+
+  font-size: 40px;
+
+  margin:20px 0;
+}
+
+
+.section-padding {
+
+  padding: 20px 20px 40px;  /* 
+    padding: top right bottom left;
+  */
+
+ 
+
+}
+
+.cases img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Flex grid */
+
+.flex-grid .row {
+
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  /* align-self: center; */
+  padding: 0px 10px 0px 10px; 
+  margin-left:55px;
+   
+  /* 
+    padding: top right bottom left;
+  */
+
+}
+
+.flex-grid .column {
+  flex:24%;
+  max-width:24.3%;
+  overflow:hidden; 
+}
+.flex-grid img {
+
+  height:320px;
+  width:430px;
+}
+
+/* Intro Team */
+.flex-container {
+
+  display:flex;
+
+  align-items: center;
+
+  justify-items: center;
+
+  flex-direction: column;
+
+  padding-top:60px;
+
+  padding-bottom:30px;
+
+}
+
+
+.flex-container h4 {
+
+  font-weight: bold;
+
+  font-size: large;
+
+  margin-bottom:20px;
+
+}
+
+.flex-container h2 {
+
+  font-size: 35px;
+  font-weight: 20px;
+  margin-bottom: 25px;
+}
+
+/* Team Flex */
+
+/* SUPER USEFUL for spacing out flex items */
+.flex-team-container > div {
+
+  padding:20px;
+}
+.flex-team-container {
+
+  display:flex; 
+  flex-direction: row;
+ 
+  justify-items: center;
+  text-align: center;
+
+
+}
+
+.flex-team-container img {
+
+  border-radius: 50%;
+
+  width:100%;
+
+}
+
+.flex-team-container h4 {
+
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+.flex-column col {
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%; 
+  flex: 1; 
+}
+
+/* Callback form */
+.callback-form {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+  margin-bottom: 15px;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+}
+
+.callback-form input:focus {
+  outline-color: #28a745;
+}
+
+.callback-form .btn {
+  padding: 12px 0;
+  margin-top: 20px;
+}
